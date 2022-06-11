@@ -1,8 +1,8 @@
 package utils
 
 import (
-	clientset "github.com/leosunmo/consularis/pkg/client/clientset/versioned"
-	"github.com/leosunmo/consularis/pkg/config"
+	clientset "github.com/fire-ant/consularis/pkg/client/clientset/versioned"
+	"github.com/fire-ant/consularis/pkg/config"
 	log "github.com/sirupsen/logrus"
 	apiclientset "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
 

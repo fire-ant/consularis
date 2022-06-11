@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	consularisio "github.com/leosunmo/consularis/pkg/apis/consularis.io"
+	consularisio "github.com/fire-ant/consularis/pkg/apis/consularis.io"
 )
 
 // SchemeGroupVersion is group version used to register these objects

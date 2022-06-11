@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
+	consularisv1alpha1 "github.com/fire-ant/consularis/pkg/apis/consularis.io/v1alpha1"
+	"github.com/fire-ant/consularis/pkg/config"
 	consulapi "github.com/hashicorp/consul/api"
-	consularisv1alpha1 "github.com/leosunmo/consularis/pkg/apis/consularis.io/v1alpha1"
-	"github.com/leosunmo/consularis/pkg/config"
 )
 
 // NewClient returns a KV client for Consul

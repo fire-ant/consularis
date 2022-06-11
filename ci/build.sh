@@ -1,7 +1,7 @@
 #!/bin/bash -ex
 
 APP_NAME="consularis"
-DOCKER_REPO=leosunmo/consularis
+DOCKER_REPO=fire-ant/consularis
 BRANCH=${TRAVIS_BRANCH:-local}
 COMMIT_SHORT=${TRAVIS_COMMIT:0:7}
 

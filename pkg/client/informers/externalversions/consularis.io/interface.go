@@ -19,8 +19,8 @@ limitations under the License.
 package consularis
 
 import (
-	v1alpha1 "github.com/leosunmo/consularis/pkg/client/informers/externalversions/consularis.io/v1alpha1"
-	internalinterfaces "github.com/leosunmo/consularis/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/fire-ant/consularis/pkg/client/informers/externalversions/consularis.io/v1alpha1"
+	internalinterfaces "github.com/fire-ant/consularis/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

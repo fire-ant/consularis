@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/leosunmo/consularis/pkg/client/clientset/versioned"
-	consularis_io "github.com/leosunmo/consularis/pkg/client/informers/externalversions/consularis.io"
-	internalinterfaces "github.com/leosunmo/consularis/pkg/client/informers/externalversions/internalinterfaces"
+	versioned "github.com/fire-ant/consularis/pkg/client/clientset/versioned"
+	consularis_io "github.com/fire-ant/consularis/pkg/client/informers/externalversions/consularis.io"
+	internalinterfaces "github.com/fire-ant/consularis/pkg/client/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

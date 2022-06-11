@@ -21,10 +21,10 @@ package v1alpha1
 import (
 	time "time"
 
-	consularis_io_v1alpha1 "github.com/leosunmo/consularis/pkg/apis/consularis.io/v1alpha1"
-	versioned "github.com/leosunmo/consularis/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/leosunmo/consularis/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/leosunmo/consularis/pkg/client/listers/consularis.io/v1alpha1"
+	consularis_io_v1alpha1 "github.com/fire-ant/consularis/pkg/apis/consularis.io/v1alpha1"
+	versioned "github.com/fire-ant/consularis/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/fire-ant/consularis/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/fire-ant/consularis/pkg/client/listers/consularis.io/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

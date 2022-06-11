@@ -20,7 +20,7 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	consularisv1alpha1 "github.com/leosunmo/consularis/pkg/client/clientset/versioned/typed/consularis.io/v1alpha1"
+	consularisv1alpha1 "github.com/fire-ant/consularis/pkg/client/clientset/versioned/typed/consularis.io/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

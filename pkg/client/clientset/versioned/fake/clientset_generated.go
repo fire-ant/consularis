@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/leosunmo/consularis/pkg/client/clientset/versioned"
-	consularisv1alpha1 "github.com/leosunmo/consularis/pkg/client/clientset/versioned/typed/consularis.io/v1alpha1"
-	fakeconsularisv1alpha1 "github.com/leosunmo/consularis/pkg/client/clientset/versioned/typed/consularis.io/v1alpha1/fake"
+	clientset "github.com/fire-ant/consularis/pkg/client/clientset/versioned"
+	consularisv1alpha1 "github.com/fire-ant/consularis/pkg/client/clientset/versioned/typed/consularis.io/v1alpha1"
+	fakeconsularisv1alpha1 "github.com/fire-ant/consularis/pkg/client/clientset/versioned/typed/consularis.io/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

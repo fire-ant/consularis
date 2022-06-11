@@ -15,7 +15,7 @@ spec:
     spec:
       serviceAccountName: consularis
       containers:
-      - image: leosunmo/consularis:master
+      - image: chr1slavery/consularis:1.0.0
         command:
         - ./consularis
         - "-n" # -n restricts Consularis to only watch ConsulObjects in the provided namespace. Empty means all namespaces.

@@ -7,8 +7,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/leosunmo/consularis/pkg/config"
-	c "github.com/leosunmo/consularis/pkg/controller"
+	"github.com/fire-ant/consularis/pkg/config"
+	c "github.com/fire-ant/consularis/pkg/controller"
 )
 
 var namespace string

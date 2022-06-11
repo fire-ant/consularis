@@ -1,6 +1,6 @@
 ARG APP_NAME=consularis
 ARG APP_PATH=/$APP_NAME
-ARG SRC_PATH=/go/src/github.com/leosunmo/$APP_NAME
+ARG SRC_PATH=/go/src/github.com/fire-ant/$APP_NAME
 
 # Build container
 FROM golang:1.10.2 AS builder

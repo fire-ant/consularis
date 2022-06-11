@@ -19,8 +19,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "github.com/leosunmo/consularis/pkg/apis/consularis.io/v1alpha1"
-	scheme "github.com/leosunmo/consularis/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/fire-ant/consularis/pkg/apis/consularis.io/v1alpha1"
+	scheme "github.com/fire-ant/consularis/pkg/client/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

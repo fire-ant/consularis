@@ -2,7 +2,7 @@
 
 *Consul Key/Value controller for Kubernetes*
 
-[![Build Status](https://travis-ci.org/leosunmo/consularis.svg?branch=master)](https://travis-ci.org/leosunmo/consularis)
+[![Build Status](https://travis-ci.org/fire-ant/consularis.svg?branch=master)](https://travis-ci.org/fire-ant/consularis)
 
 Consularis implements a Consul Object custom resource in Kubernetes containing one or more Key/Value pairs as well as a controller for that resource.
 This enables you to use Kubernetes API objects to set the KV state in Consul.
@@ -15,7 +15,7 @@ Run `./consularis -h` for details on how to run it outside Kubernetes.
 ## Docker image
 Docker images are available at Dockerhub.
 ```
-docker pull leosunmo/consularis:master
+docker pull fire-ant/consularis:master
 ```
 ## Kubernetes deployment
 Example deployment files are available under the `kube` directory.

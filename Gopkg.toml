@@ -36,7 +36,7 @@ required = ["k8s.io/code-generator/cmd/client-gen"]
 
 [[constraint]]
   branch = "master"
-  name = "github.com/leosunmo/consularis"
+  name = "github.com/fire-ant/consularis"
 
 [[constraint]]
   branch = "release-1.8"

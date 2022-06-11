@@ -3,7 +3,7 @@ services:
   - docker
 env:
   global:
-    - REPO=leosunmo/consularis
+    - REPO=fire-ant/consularis
 
 script:
   - "./ci/build.sh"
